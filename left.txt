@@ -1,2 +1,2 @@
-head 
-meta:url and meta:image left 
+head >
+meta:url left only
