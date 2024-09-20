@@ -159,31 +159,38 @@
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="gname" placeholder="Gurdian Name" name="name">
+                                    <input type="text" class="form-control border-0 bg-light" id="gname" placeholder="Name" name="name" required>
                                     <label for="gname">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control border-0 bg-light" id="gmail" placeholder="Gurdian Email" name="email">
+                                    <input type="email" class="form-control border-0 bg-light" id="gmail" placeholder="Email" name="email" required>
                                     <label for="gmail">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="cname" placeholder="Child Name" name="course">
+                                    <input type="text" class="form-control border-0 bg-light" id="cname" placeholder="Courses Type" name="course" required>
                                     <label for="cname">Courses Type</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="cage" placeholder="Child Age" name="cartype">
-                                    <label for="cage">Car Type</label>
+                                    <input type="text" class="form-control border-0 bg-light" id="cage" placeholder="Vehicle Type" name="vehicletype" required>
+                                    <label for="cage">Vehicle Type</label>
+                                </div>
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control border-0 bg-light" id="phonenumber" placeholder="PhoneNumber" name="PhoneNumber" max="9999999999" min="6000000000" required>
+                                    <label for="phonenumber">Phone Number</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control border-0 bg-light" placeholder="Leave a message here" id="message" style="height: 150px" name="message"></textarea>
+                                    <textarea class="form-control border-0 bg-light" placeholder="Leave a message here" id="message" style="height: 100px" name="message" required></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
